@@ -2,12 +2,12 @@
 <metadata>
   <groupId>com.notnoop.apns</groupId>
   <artifactId>apns</artifactId>
-  <version>0.1.2</version>
+  <version>0.1.3</version>
   <versioning>
-    <release>0.1.2</release>
+    <release>0.1.3</release>
     <versions>
-      <version>0.1.2</version>
+      <version>0.1.3</version>
     </versions>
-    <lastUpdated>20100111213143</lastUpdated>
+    <lastUpdated>20100205175327</lastUpdated>
   </versioning>
 </metadata>
