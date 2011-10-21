@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.notnoop</groupId>
+    <artifactId>xsbt-web-plugin_2.9.1</artifactId>
+    <packaging>jar</packaging>
+    <description>xsbt-web-plugin</description>
+    <version>0.11.0-0.2.7</version>
+    <licenses>
+        <license>
+            <name>BSD 3-Clause</name>
+            <url>https://github.com/siasia/xsbt-web-plugin/blob/master/LICENSE</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <name>xsbt-web-plugin</name>
+    <organization>
+        <name>com.notnoop</name>
+    </organization>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-tools.sbt</groupId>
+            <artifactId>sbt_2.9.1</artifactId>
+            <version>0.11.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.9.1</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mortbay.jetty</groupId>
+            <artifactId>jetty</artifactId>
+            <version>6.1.22</version>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.mortbay.jetty</groupId>
+            <artifactId>jetty-plus</artifactId>
+            <version>6.1.22</version>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-webapp</artifactId>
+            <version>7.5.1.v20110908</version>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-plus</artifactId>
+            <version>7.5.1.v20110908</version>
+            <optional>true</optional>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>ScalaToolsMaven2Repository</id>
+            <name>Scala-Tools Maven2 Repository</name>
+            <url>http://scala-tools.org/repo-releases/</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+</project>
